@@ -12,7 +12,7 @@ phone: 833-225-5993
 location: "Cocoa Beach, FL (or Montréal, QC)"
 github: svmiller
 web: wwe.com/superstars/rick-martel
-twitter: "@rickmartelWWE"
+mastodon: "@rickmartelWWE"
 linkedin: "steven-miller-05b6851b3"
 geometry: "top=.5in, left =.5in, right=.5in, bottom=.75in"
 mainfont: cochineal
