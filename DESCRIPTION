@@ -1,13 +1,11 @@
-Package: stevetemplates
+Package: psatemplates
 Type: Package
-Title: Steve's R Markdown Templates
+Title: Patrick's R Markdown Templates
 Depends: R (>= 3.5.0)
 Version: 1.2.0
-Authors@R: person("Steven", "Miller",
-                  email = "steve@svmiller.com", 
-                  role = c("aut", "cre"),
-                  comment = c(ORCID = "0000-0003-4072-6263"))
-Maintainer: Steven Miller <steve@svmiller.com>
+Authors@R: c(
+    person("Steven V.", "Miller", email = "steven.v.miller@gmail.com", roles = c("cre", "aut"), comment = c(ORCID = "0000-0003-4072-6263")),
+    person("Patrick", "Anker", email = "patricksanker@gmail.com", roles = c("aut", "mnt")))
 Description: These are my collection of 'R Markdown' templates, mostly for compilation to PDF.
     These are useful for all things academic and professional, if you are using 'R Markdown'
     for things like your CV or your articles and manuscripts.

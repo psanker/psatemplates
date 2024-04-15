@@ -19,7 +19,7 @@
 #' | `phone` | your phone number |
 #' | `github` | your Github username (optional) |
 #' | `web:` | your domain name |
-#' | `twitter` | your Twitter handle |
+#' | `mastodon` | your (Hachyderm) Mastodon handle (TODO: support many servers) |
 #' | `linkedin` | your LinkedIn ID |
 #' | `includephoto` | logical, defaults to `FALSE`. If `TRUE`, includes photo of you in top-right of document. |
 #' | `myphoto` | file name for your photo, only necessary if `includephoto: TRUE`. |
@@ -33,16 +33,18 @@
 #' @export
 #'
 
-resume <- function(...){
-  templ <- system.file("rmarkdown", "templates", "resume", "resources", "template.tex", package = "stevetemplates")
-  rmarkdown::pdf_document(template = templ,
-                          latex_engine = "xelatex",
-                          ...)
+resume <- function(...) {
+  templ <- system.file("rmarkdown", "templates", "resume", "resources", "template.tex", package = "psatemplates")
+  rmarkdown::pdf_document(
+    template = templ,
+    latex_engine = "xelatex",
+    ...
+  )
 }
 
 
 #' @rdname resume
 #' @export
 templ_resume <- function() {
-  print(system.file("rmarkdown", "templates", "resume", "resources", "template.tex", package = "stevetemplates"))
+  print(system.file("rmarkdown", "templates", "resume", "resources", "template.tex", package = "psatemplates"))
 }
