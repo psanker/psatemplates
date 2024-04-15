@@ -1,4 +1,4 @@
 library(testthat)
-library(stevetemplates)
+library(psatemplates)
 
-test_check("stevetemplates")
+test_check("psatemplates")
