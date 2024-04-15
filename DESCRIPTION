@@ -4,8 +4,8 @@ Title: Patrick's R Markdown Templates
 Depends: R (>= 3.5.0)
 Version: 1.0.0
 Authors@R: c(
-    person("Steven V.", "Miller", email = "steven.v.miller@gmail.com", roles = c("cre", "aut")),
-    person("Patrick", "Anker", email = "patricksanker@gmail.com", roles = c("aut", "mnt")))
+    person("Steven V.", "Miller", email = "steven.v.miller@gmail.com", role = "aut"),
+    person("Patrick", "Anker", email = "patricksanker@gmail.com", role = c("aut", "cre")))
 Description: These are my collection of 'R Markdown' templates, mostly for compilation to PDF.
     These are useful for all things academic and professional, if you are using 'R Markdown'
     for things like your CV or your articles and manuscripts.
